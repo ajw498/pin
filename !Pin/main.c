@@ -1,6 +1,17 @@
 /*
 	Pin
-	©Alex Waugh 1999
+	©Alex Waugh 1999,2002
+
+	This program is free software; you can redistribute it and/or modify
+	it under the terms of the GNU General Public License as published by
+	the Free Software Foundation; either version 2 of the License, or
+	(at your option) any later version.
+	
+	This program is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	GNU General Public License for more details.
+
 */
 
 /*	Includes  */
@@ -30,7 +41,6 @@
 #include "AJWLib:Handler.h"
 #include "AJWLib:Error.h"
 #include "AJWLib:Pane.h"
-#include "AJWLib:DrawFile.h"
 
 #include <stdlib.h>
 #include <string.h>
@@ -39,7 +49,7 @@
 
 /*	Macros  */
 
-#define VERSION "0.01 (13-Jan-99)"
+#define VERSION "0.02 (1-Dec-02)"
 #define DIRPREFIX "Pin"
 
 #define menuitem_INFO 0
@@ -140,7 +150,7 @@ void LoadDirs(void)
 int main(void)
 {
 	wimp_point offset={-12,-12};
-	Error_RegisterSignals();
+	/*Error_RegisterSignals();*/
 	Resource_Initialise(DIRPREFIX);
 	Msgs_LoadFile("Messages");
 	Event_Initialise(Msgs_TempLookup("Task.Name:"));

@@ -1,8 +1,30 @@
-                             !Pin and !PinEdit  ©Alex Waugh 1998
-                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                        Pin and PinEdit
+                        ~~~~~~~~~~~~~~~
 
-This program is freeware, which means you can download and use it, and also pass it onto other people free of charge, but I retain the copyright.  You may also modify the program for your own use, but you cannot pass on modified copies without my prior permission.
+Copyright Alex Waugh 1998,2002
 
-It has been tested on RISC OS 3.11 and 3.71, but does not come with any kind of warranty, i.e. it is supplied "as is" and I am not responsible if it does not work correctly. However I will try to correct any bugs that are found.
+This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation; either version 2 of the License, or
+(at your option) any later version.
 
-Any comments, bug reports or suggestions for improvements are welcome. You can e-mail me, Alex Waugh, at ajw498@ecs.soton.ac.uk
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+
+Pin Allows you to attach messages to directories, which are shown each
+time the directory is opened. Currently up to twenty messages are
+supported.
+Simply run !PinEdit and change the directories and messages
+to whatever you want, and click on Save. You can drag directories to the
+window to add their name to the directory icon. The time icon determines
+how long the message is shown for.
+
+Then double click on !Pin and your messages will be used.
+To quit Pin, from the task manager window (click on the far right icon
+on the icon bar) click menu over the task Pin, and select
+Task 'Pin' > Quit.
+
+http://www.alexwaugh.com/

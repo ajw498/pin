@@ -1,0 +1,31 @@
+
+
+LIBS	=	\
+		AJWLib:o.AJWLib\
+		DeskLib:o.Desklib
+
+
+OBJECTS	=	\
+		main.o
+
+INCLUDE	=	DeskLib:
+
+TARGET		=	!RunImage
+
+CCFLAGS		=	$(CCEXTRA) -throwback -I$(INCLUDE)
+LINKFLAGS	=	$(LINKEXTRA)
+
+CC		=	cc -c $(CCFLAGS)
+LINK		=	cc $(CCFLAGS) $(LINKFLAGS)
+
+all: $(TARGET)
+
+
+.c.o: $(HEADERS) $(LIBS)
+	$(CC) $< -o $@
+
+
+
+$(TARGET):	$(OBJECTS) $(LIBS)
+	$(LINK) -o $@ $(OBJECTS) $(LIBS)
+
