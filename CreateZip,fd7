@@ -1,3 +1,3 @@
 Dir <Obey$Dir>
 remove pin/zip
-zip -r -9 pin/zip !Pin !PinEdit Licence ReadMe -x *CVS* *svn* *.o.*
+zip -r -9 pin/zip !Pin !PinEdit Licence ReadMe ChangeLog -x *CVS* *svn* *.o.*
