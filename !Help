@@ -1,0 +1,11 @@
+                             !Pin and !PinEdit  ©Alex Waugh 1998
+                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+!Pin Allows you to attach messages to directories, which are shown each time the directory is opened.
+Currently up to twenty messages are supported.
+Simply run !PinEdit and change the directories and messages to whatever you want, and click on Save.
+You can drag directories to the window to add their name to the directory icon.
+The time icon determins how long the message is shown for.
+
+Then double click on !Pin and your messages will be used.
+To quit !Pin, from the task manager window (click on the Acorn icon on the icon bar) click menu over the task Pin, and select Task 'Pin' > Quit.

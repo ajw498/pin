@@ -1,0 +1,4 @@
+Set Pin$Dir <Obey$Dir>
+IconSprites <Obey$Dir>.!Sprites
+WimpSlot -Min 80k -Max 80k
+|Run <Obey$Dir>.!RunImage

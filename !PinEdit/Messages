@@ -1,0 +1,7 @@
+Task.Name:PinEdit
+
+Menu.Title:<Task.Name>
+Menu.IconBar:Info,Quit
+
+Error.NoMem:Not enough free memory
+Error.Fatal:Sorry, <Task.Name> has suffered a internal error (%s) and must exit immediatly

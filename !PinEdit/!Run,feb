@@ -1,0 +1,5 @@
+Set PinEdit$Dir <Obey$Dir>
+IconSprites <Obey$Dir>.!Sprites
+If "<Pin$Dir>"="" Then Error !Pin needs to have been seen before !PinEdit can be run
+WimpSlot -Min 80k -Max 80k
+Run <Obey$Dir>.!RunImage
